@@ -116,7 +116,7 @@ const Update = () => {
                     disabled={isLoading ? true : false}
                     value={updateFormData.name}
                     onChange={eventChange}
-                    placeholder="default"
+                    placeholder="Enter full name"
                     type="text"
                     required
                   />
@@ -129,11 +129,11 @@ const Update = () => {
                 <Col sm={10}>
                   <Input
                     id="username"
-                    name="usernam"
+                    name="username"
                     disabled={isLoading ? true : false}
                     value={updateFormData.username}
                     onChange={eventChange}
-                    placeholder="user name"
+                    placeholder="Enter username"
                     type="text"
                   />
                 </Col>
@@ -149,7 +149,7 @@ const Update = () => {
                     value={updateFormData.email}
                     disabled={isLoading ? true : false}
                     onChange={eventChange}
-                    placeholder="email"
+                    placeholder="Enter email"
                     type="email"
                   />
                 </Col>
@@ -165,7 +165,7 @@ const Update = () => {
                     disabled={isLoading ? true : false}
                     value={city}
                     onChange={(e)=>setCity(e.target.value)}
-                    placeholder="user name"
+                    placeholder="Enter city"
                     type="text"
                   />
                 </Col>
@@ -181,7 +181,7 @@ const Update = () => {
                     disabled={isLoading ? true : false}
                     value={updateFormData.phone}
                     onChange={eventChange}
-                    placeholder="phone number"
+                    placeholder="Enter phone number"
                     type="text"
                   />
                 </Col>
